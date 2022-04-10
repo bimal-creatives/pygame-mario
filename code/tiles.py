@@ -1,5 +1,4 @@
-from msilib.schema import Class
-import pygame
+import pygame 
 
 class Tile(pygame.sprite.Sprite):
 	def __init__(self,pos,size):
