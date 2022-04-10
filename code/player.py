@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 import pygame
 from pygame.surface import Surface
+=======
+import pygame 
+>>>>>>> parent of 3322ca1 (module problem solved)
 
 
 class Player(pygame.sprite.Sprite):
     def __init__(self, pos):
         super().__init__()
+<<<<<<< HEAD
         self.image = Surface((32, 64))
+=======
+        self.image = pygame.surface((32,64))
+>>>>>>> parent of 3322ca1 (module problem solved)
         self.image.fill('red')
         self.rect = self.image.get_rect(topleft=pos)
         self.direction = pygame.math.Vector2(0, 0)
